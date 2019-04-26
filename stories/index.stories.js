@@ -1,12 +1,13 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
-import { linkTo } from '@storybook/addon-links'
 
-import { Button, Welcome } from '@storybook/react/demo'
-import { ExampleComponent } from '../src'
+import { ExampleComponent, StyledExample } from '../src'
 
-storiesOf('Example', module).add('Component', () => (
+storiesOf('Example', module).add('Example Component', () => (
   <ExampleComponent>Hi</ExampleComponent>
+))
+
+storiesOf('Example', module).add('Styled Example', () => (
+  <StyledExample>Hi</StyledExample>
 ))
