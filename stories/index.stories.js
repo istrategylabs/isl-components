@@ -1,19 +1,23 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { text, optionsKnob as options } from '@storybook/addon-knobs'
+import { text, boolean, optionsKnob as options } from '@storybook/addon-knobs'
 
 import { ExampleComponent, StyledExample } from '../src'
 
-storiesOf('Example', module).add('Example Component', () => (
+storiesOf('Components', module).add('Button', () => {
+  return <button disabled={boolean('Disabled', false)}>I'm a button</button>
+})
+
+storiesOf('Components', module).add('Example Component', () => (
   <ExampleComponent text={text('Content', 'Hi')} />
 ))
 
-storiesOf('Example', module).add('Styled Example', () => (
+storiesOf('Components', module).add('Styled Example', () => (
   <StyledExample>{text('Content', 'Hi')}</StyledExample>
 ))
 
-storiesOf('Example', module).add('Styled Example w/ Blocks', () => {
+storiesOf('Design Tokens', module).add('Styled Example w/ Blocks', () => {
   const label = 'Blocks'
   const valuesObj = {
     Example1: 1,
