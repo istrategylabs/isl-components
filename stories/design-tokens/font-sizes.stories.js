@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import { storiesOf } from '@storybook/react'
+
 import {
-  JUMBO,
-  XXL,
-  XL,
-  L,
-  M,
-  S,
-  XS,
-  XXS,
-} from '../../src/design-tokens/font-sizes'
+  FONT_JUMBO,
+  FONT_XXL,
+  FONT_XL,
+  FONT_L,
+  FONT_M,
+  FONT_S,
+  FONT_XS,
+  FONT_XXS,
+} from '../../src'
 
 const FontSizeExample = styled.div`
   ${props => props.fontSize}
@@ -20,13 +20,13 @@ const FontSizeExample = styled.div`
 
 storiesOf('Design Tokens', module).add('Font Sizes', () => (
   <div>
-    <FontSizeExample fontSize={JUMBO}>Jumbo: 72px</FontSizeExample>
-    <FontSizeExample fontSize={XXL}>XXL: 48px</FontSizeExample>
-    <FontSizeExample fontSize={XL}>XL: 40px</FontSizeExample>
-    <FontSizeExample fontSize={L}>L: 32px</FontSizeExample>
-    <FontSizeExample fontSize={M}>M: 24px</FontSizeExample>
-    <FontSizeExample fontSize={S}>S: 18px</FontSizeExample>
-    <FontSizeExample fontSize={XS}>XS: 16px</FontSizeExample>
-    <FontSizeExample fontSize={XXS}>XXS: 14px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_JUMBO}>Jumbo: 72px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_XXL}>XXL: 48px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_XL}>XL: 40px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_L}>L: 32px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_M}>M: 24px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_S}>S: 18px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_XS}>XS: 16px</FontSizeExample>
+    <FontSizeExample fontSize={FONT_XXS}>XXS: 14px</FontSizeExample>
   </div>
 ))
