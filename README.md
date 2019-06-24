@@ -50,8 +50,3 @@ exports.onCreateWebpackConfig = ({
   })
 }
 ```
-
-
-## License
-
-MIT © [alexbarbato](https://github.com/alexbarbato)
