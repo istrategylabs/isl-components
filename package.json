@@ -1,6 +1,6 @@
 {
   "name": "isl-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable components for ISL",
   "author": "alexbarbato",
   "license": "MIT",
@@ -22,6 +22,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "lodash": "^4.17.11",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
@@ -57,9 +58,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "lodash": "^4.17.11"
-  },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
