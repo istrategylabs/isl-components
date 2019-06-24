@@ -57,7 +57,9 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,

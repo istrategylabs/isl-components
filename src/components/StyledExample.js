@@ -5,4 +5,4 @@ const StyledExample = styled.div`
   background-color: green;
 `
 
-export default StyledExample
+export { StyledExample }
