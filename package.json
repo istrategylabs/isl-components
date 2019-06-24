@@ -1,10 +1,10 @@
 {
-  "name": "isl-components",
-  "version": "1.0.1",
+  "name": "@isl/isl-components",
+  "version": "1.0.0",
   "description": "Reusable components for ISL",
   "author": "alexbarbato",
   "license": "MIT",
-  "repository": "alexbarbato/isl-components",
+  "repository": "https://github.com/istrategylabs/isl-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
