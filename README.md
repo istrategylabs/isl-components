@@ -6,7 +6,7 @@
 
 ## Usage
 
-This library is meant to be forked for any project and then be used internally to do
+This library is meant to be installed directly or templated for any project and then be used internally to do
 development
 
 In this directory, when ready to use in a different library run
