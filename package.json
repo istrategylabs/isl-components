@@ -1,10 +1,10 @@
 {
-  "name": "isl-components",
+  "name": "@isl/isl-components",
   "version": "1.0.0",
   "description": "Reusable components for ISL",
   "author": "alexbarbato",
   "license": "MIT",
-  "repository": "alexbarbato/isl-components",
+  "repository": "https://github.com/istrategylabs/isl-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -22,18 +22,19 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "lodash": "^4.17.11",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.0.11",
-    "@storybook/addon-links": "^5.0.11",
-    "@storybook/addon-a11y": "^5.0.11",
-    "@storybook/addon-knobs": "^5.0.11",
-    "@storybook/addons": "^5.0.11",
-    "@storybook/react": "^5.0.11",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-a11y": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
     "@svgr/rollup": "^2.4.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
@@ -57,7 +58,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,

@@ -1,28 +1,9 @@
-import Button from './components/Button'
-import ExampleComponent from './components/ExampleComponent'
-import StyledExample from './components/StyledExample'
-import { JUMBO, XXL, XL, L, M, S, XS, XXS } from './design-tokens/font-sizes'
-import {
-  DAWN,
-  LIGHT_PURPLE,
-  PURPLE,
-  DARK_PURPLE,
-  LIGHT_PINK,
-  PINK,
-  DARK_PINK,
-  WHITE,
-  LIGHT_CHARCOAL,
-  CHARCOAL,
-  DARK_CHARCOAL,
-  NEUTRAL,
-  POSITIVE,
-  NEGATIVE,
-  WARNING,
-} from './design-tokens/colors'
-
 /***** COMPONENTS *****/
-export { Button }
-export { ExampleComponent, StyledExample }
+export { Button } from './components/Button'
+export { ExampleComponent } from './components/ExampleComponent'
+export { StyledExample } from './components/StyledExample'
+export { Grid } from './components/Grid'
+export { Column } from './components/Column'
 
 /***** DESIGN TOKENS *****/
 // Colors
@@ -42,7 +23,7 @@ export {
   POSITIVE,
   NEGATIVE,
   WARNING,
-}
+} from './design-tokens/colors'
 
 // Font Sizes
 export {
@@ -54,4 +35,4 @@ export {
   S as FONT_S,
   XS as FONT_XS,
   XXS as FONT_XXS,
-}
+} from './design-tokens/font-sizes'
